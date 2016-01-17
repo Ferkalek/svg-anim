@@ -47,82 +47,6 @@ table {
 }
 /* End of Eric Meyer's CSS Reset */
 
-html {
-	height: 100%;
-}
-article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
-	display: block;
-}
-body {
-	font: 12px/18px Arial, sans-serif;
-	height: 100%;
-}
-.wrapper {
-	min-width: 960px;
-	max-width: 1140px;
-	margin: 20px auto 0;
-	min-height: 100%;
-	height: auto !important;
-	height: 100%;
-}
-
-
-/* Header
------------------------------------------------------------------------------*/
-.header {
-	min-height: 50px;
-	background: #178e8a;
-    padding: 20px 15px;
-    font-family: "Arial", "san-serif";
-    font-size: 18px;
-    line-height: 24px;
-}
-
-
-/* Middle
------------------------------------------------------------------------------*/
-.middle {
-	width: 100%;
-	padding: 0 0 100px;
-	position: relative;
-}
-.middle:after {
-	display: table;
-	clear: both;
-	content: '';
-}
-.container {
-	width: 100%;
-	float: left;
-	overflow: hidden;
-}
-.content {
-	padding: 0 0 0 270px;
-}
-
-
-/* Left Sidebar
------------------------------------------------------------------------------*/
-.left-sidebar {
-	float: left;
-	width: 250px;
-	margin-left: -100%;
-	position: relative;
-	background: #B5E3FF;
-}
-
-
-/* Footer
------------------------------------------------------------------------------*/
-.footer {
-	margin: -100px auto 0;
-	min-width: 960px;
-	max-width: 1140px;
-	height: 100px;
-	background: #BFF08E;
-	position: relative;
-}
-
 
 /* block with svg */
 .wrap-anim svg {
@@ -146,38 +70,10 @@ body {
     clear:both;
 }
 
-
-/* header */
-a{
-    text-decoration: none;
-    color:#fff;
-    text-transform: uppercase;
+.anim-bl {
+    width: 960px;
+    height: 400px;
+    padding: 60px 0;
+    margin: 50px auto;
+    background: #178e8a;
 }
-
-a:hover{
-    text-decoration: underline;
-}
-.logo h1{
-    font-size: 32px;
-    margin-bottom: 30px;
-}
-.logo a:hover{
-    text-decoration: none;
-}
-nav ul{
-    text-align: center;
-}
-nav li{
-    display: inline-block;
-    margin-left: 20px;
-}
-nav li:first-child{
-    margin-left: 0;
-}
-
-
-
-
-
-
-
